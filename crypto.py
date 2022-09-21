@@ -13,8 +13,8 @@ def crypto(filename, cypher):
             for ch in line:
                 eLine += cypher(ch)
             fhenc.write(eLine)
-        with open(filename,'w') as fh_new:
-            fh_new.write(eLine)
+        with open(filename,'w') as fh_encii:
+            fh_encii.write(eLine)
 
 
 # DO NOT touch the lines below
